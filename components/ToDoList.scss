@@ -1,0 +1,47 @@
+// ToDoList.scss
+
+.todo-list {
+  ul {
+    margin: 12px 0;
+    list-style: none;
+    padding: 0;
+  }
+
+  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(255,255,255,.35);
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+
+  .text{
+
+  }
+
+  .list-title {
+      font-size: 22px;
+      border-bottom: 2px solid rgba(255,255,255,.35);
+      padding-bottom: 6px
+    }
+
+  .button{
+    font-size: 12px;
+    padding: 6px;
+    cursor: pointer;
+    background-color: #a0a4d9;
+    border: 1px solid #a0a4d9;
+    color: #1f2023;
+    font-weight: 700;
+    outline: none;
+    border-radius: 6px;
+  }
+
+  .plug{
+    text-align: center;
+    opacity: .5;
+    margin: 40px auto ;
+  }
+}
